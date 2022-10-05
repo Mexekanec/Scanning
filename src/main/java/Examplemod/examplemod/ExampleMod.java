@@ -57,7 +57,6 @@ public static ExampleMod instance;
     @EventHandler
     public void postInit(FMLPostInitializationEvent event) {
     proxy.postInit(event);
-        MinecraftForge.EVENT_BUS.register(new energy());
 
     }
 
